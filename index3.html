@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fuckingShit - Oficiální web kapely</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #111; color: #eee; text-align: center; margin: 0; padding: 0; }
+        header { background-color: #d11a2a; padding: 50px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.8); border-bottom: 3px solid #fff; }
+        header h1 { margin: 0; font-size: 4rem; text-transform: uppercase; letter-spacing: 3px; text-shadow: 2px 2px 5px #000; }
+        header p { font-style: italic; font-size: 1.3rem; margin-top: 15px; color: #ddd; }
+        .container { max-width: 800px; margin: 40px auto; padding: 30px; background: #222; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.5); border: 1px solid #333; }
+        h2 { color: #d11a2a; border-bottom: 2px solid #d11a2a; padding-bottom: 10px; font-size: 2rem; text-transform: uppercase; }
+        .intro-text { font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; }
+        .playlist { list-style: none; padding: 0; }
+        .playlist li { background: #333; margin: 15px 0; padding: 20px; border-radius: 8px; display: flex; flex-direction: column; align-items: flex-start; border-left: 5px solid #d11a2a; }
+        .song-title { font-size: 1.3rem; margin-bottom: 15px; }
+        audio { width: 100%; outline: none; margin-bottom: 15px; border-radius: 5px; }
+        .lyrics { margin-top: 10px; text-align: left; background: #1a1a1a; padding: 15px; border-radius: 5px; font-size: 0.95rem; line-height: 1.5; color: #bbb; width: 100%; box-sizing: border-box; border-left: 3px solid #666; }
+        details { width: 100%; text-align: left; cursor: pointer; }
+        summary { color: #d11a2a; font-weight: bold; margin-bottom: 10px; font-size: 1.1rem; outline: none; }
+        summary:hover { color: #fff; }
+        .highlight { color: #d11a2a; font-weight: bold; }
+        footer { margin-top: 50px; padding: 30px; background: #000; font-size: 1rem; color: #666; border-top: 2px solid #333; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎸 fuckingShit 🎸</h1>
+        <p>Vlastní tvorba. Vlastní pravidla. Tohle jsme my!</p>
+    </header>
+
+    <div class="container">
+        <h2>Kdo jsme? My jsme fuckingShit!</h2>
+        <p class="intro-text">
+            Vítejte na ofiko webu <span class="highlight">fuckingShit</span>! Už nehrajeme jen cizí fláky, ale máme vlastní našláplej repertoár.
+            Tady je naše nahraná pecka, poslechněte si to rovnou tady z webu!
+        </p>
+
+        <h2>🎵 Naše nahrávky (Poslouchej tady!)</h2>
+        <ul class="playlist">
+            <li>
+                <div class="song-title">💀 <strong>Učil jsem se hrobařem</strong> (Ofiko nahrávka)</div>
+                <!-- Přehrávač -->
+                <audio controls>
+                    <!-- Nastaveno na formát, ve kterém jsi nahrával. Soubor se musí jmenovat hrobar.m4a -->
+                    <source src="hrobar.m4a" type="audio/mp4">
+                    <source src="hrobar.mp3" type="audio/mpeg">
+                    Tvůj prohlížeč nepodporuje přehrávač.
+                </audio>
+                
+                <!-- Rozbalovací text písničky -->
+                <details>
+                    <summary>🎤 Zobrazit text písně (Zpívej s náma!)</summary>
+                    <div class="lyrics">
+                        Mládí jsem se učil hrobařem,<br>
+                        jezdit hlínou, jezdit s trakařem,<br>
+                        kopat hroby byl můj ideál.<br><br>
+                        
+                        Jezdit hlínou, jezdit s vozíkem,<br>
+                        s černou rakví, s bílým podníkem,<br>
+                        toho bych se nikdy nenadál.<br><br>
+                        
+                        Že do módy přijde kremace,<br>
+                        černý hrobař bude bez práce,<br>
+                        toho bych se nikdy nenadál.<br><br>
+                        
+                        Kolem projel vůz milionáře,<br>
+                        záblesk světel pad' mi do tváře,<br>
+                        možná svítily kola brzdící.<br><br>
+                        
+                        Stoupej vzhůru, stoupej ke hvězdám,<br>
+                        tam se s černou rakví neshledám,<br>
+                        s bohem bílé město zářící.<br><br>
+                        
+                        S bohem moje město,<br>
+                        vzpomínat budu přesto,<br>
+                        jak jsem poznal tvůj smích a tvůj pláč...
+                    </div>
+                </details>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>📅 Pozvi fuckingShit na svou akci!</h2>
+        <p class="intro-text">
+            Chceš slyšet náš repertoár naživo? Ať už děláš kalbu, fesťák nebo vesnickou zábavu, <span class="highlight">fuckingShit</span> ti tam zbourá sál!
+        </p>
+        <p style="font-size: 1.2rem;"><strong>Napiš nám:</strong> booking@fuckingshit-kapela.cz</p>
+    </div>
+
+    <footer>
+        &copy; 2026 fuckingShit. Všechna práva na chlast vyhrazena. Žádnej fucking shit, jen poctivá muzika!
+    </footer>
+</body>
+</html>
